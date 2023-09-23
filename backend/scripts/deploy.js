@@ -1,16 +1,13 @@
-const { ethers } = require('hardhat');
+const { ethers, run, network } = require("hardhat");
 
 async function main() {
-  const nft = await ethers.deployContract('NFT');
+  const fanToken = await ethers.deployContract('FanToken');
+  await fanToken.waitForDeployment();
 
-  await nft.waitForDeployment();
-
-  console.log('NFT Contract Deployed at ' + nft.target);
+  console.log('FanToken contract deployed to:', fanToken.target);
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-main().catch((error) => {
+main().catch(error => {
   console.error(error);
   process.exitCode = 1;
 });

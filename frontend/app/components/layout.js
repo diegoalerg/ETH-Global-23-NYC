@@ -1,19 +1,18 @@
-import Head from "next/head"
-import Header from "./header"
-import Footer from "./footer"
+import Head from 'next/head';
+import Header from './header';
+import Footer from './footer';
 
-
-export default function Layout({ children, title ='', description='' }) {
+export default function Layout({ children, title = '', description = '' }) {
   return (
     <>
-     <Head>
+      <Head>
         <title>{`FinalPass - ${title}`}</title>
         <meta name="description" content={description}></meta>
-     </Head>
-     <Header />
-    
+      </Head>
+      <Header />
       {children}
-    <Footer /> 
+
+      <Footer />
     </>
-  )
+  );
 }

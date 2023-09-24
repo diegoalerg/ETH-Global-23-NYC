@@ -1,0 +1,88 @@
+.token {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 70rem;
+    margin: 2rem auto;
+}
+
+.tokencontainer {
+    text-align: center;
+    align-items: center;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+.contenido {
+    padding: 0rem;
+}
+.contenido h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+.description {
+    margin: 0;
+    padding-top: .5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    font-size: 1.2rem;
+  
+}
+.precio {
+    color: var(--primary);
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 400;
+    padding-top: .5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+.enlace {
+    margin-top: 2rem;
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 400;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+.enlace:hover {
+    background-color: darkblue;
+}
+
+.button {
+    background-color: gray;
+    width: 100%;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color .3s ease;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: darkblue;
+}
+.purchasecontainer {
+    text-align: center;
+    align-items: center;
+    background-color: lightblue;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 5rem;
+
+}

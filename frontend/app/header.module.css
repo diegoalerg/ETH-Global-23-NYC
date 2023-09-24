@@ -1,9 +1,9 @@
 .header {
     background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)), url(../public/stadium.jpg);
-    padding: 2rem 0;
+    padding: .5rem 0;
     background-position: center;
     background-size: cover;
-
+    margin: 0;
 }
 
 .barra {
@@ -43,3 +43,4 @@
 .navigation a:hover {
     background-color: gray;
 }
+

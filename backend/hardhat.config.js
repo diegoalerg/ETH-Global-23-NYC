@@ -6,6 +6,10 @@ const config = {
   solidity: {
     version: '0.8.19',
   },
+  typechain: {
+    outDir: 'typechain',
+    target: 'ethers-v5',
+  },
   networks: {
     // for mainnet
     'base-mainnet': {

@@ -20,7 +20,7 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "deploy:fan:base-goerli": "hardhat run --network base-goerli scripts/deployFanToken.js"
+    "deploy:fan:base-goerli": "hardhat run --network base-goerli scripts/deploy.js"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.9.3"

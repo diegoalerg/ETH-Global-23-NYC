@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
           },        
           
       }}
-        onSuccess={() => router.push('/dashboard')}
+        onSuccess={() => router.push('/')}
       >
         {children}
       </PrivyProvider>
